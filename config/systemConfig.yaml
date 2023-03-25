@@ -1,0 +1,14 @@
+
+# usb转can的串口号
+COM_PORT: "/dev/ttyUSB0"
+# 波特率, 这个COM_RATE_RESET为true时也不配置了，免得搞乱通讯
+COM_BAUD: 460800
+
+#保存路径
+COM_SAVE_PATH: /home/orin/rawData.txt
+
+#文件是从头开始写(true)，还是接着写(false)
+COM_SAVE_MODE_RESET: true
+
+ 
+ 

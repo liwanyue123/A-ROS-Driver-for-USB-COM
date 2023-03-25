@@ -1,0 +1,10 @@
+<launch>
+	<rosparam file="$(find com_pkg)/config/systemConfig.yaml" command="load" /> 
+
+
+	<node pkg="com_pkg" type="textCom_main" name="COM_node" output="screen">
+	</node>
+
+ 
+ 
+</launch>

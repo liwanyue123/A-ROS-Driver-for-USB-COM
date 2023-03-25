@@ -23,7 +23,7 @@
 
 
 
-// 串口通讯类，下面管辖nmea解析类
+// 串口通讯类，下面管辖mess解析类
 class ComManager
 {
 private:
@@ -45,7 +45,7 @@ private:
  
     ros::Publisher rawMessage_pub;
 
-    FILE *fp = NULL;
+    // FILE *fp = NULL;
     ofstream outFile;	//定义ofstream对象outFile
     void init(ros::NodeHandle node)
     {
@@ -99,7 +99,7 @@ public:
     ~ComManager()
     {
         // 关闭文件
-        StringUtils::closeFile(fp);
+        // StringUtils::closeFile(fp);
         	outFile.close();	
 
     }

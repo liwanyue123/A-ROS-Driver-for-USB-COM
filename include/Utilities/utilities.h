@@ -501,9 +501,9 @@ namespace FileOperator
 namespace StringUtils
 {
     // #define COM_NMEA_LINE_SEP "\r\n"
-    //  std::string m_nmeaLineSep = COM_NMEA_LINE_SEP;       //"\n"
-    // std::vector<std::string> m_nmeaLines;
-    //(void)split(nmea, m_nmeaLineSep, m_nmeaLines);
+    //  std::string m_messLineSep = COM_NMEA_LINE_SEP;       //"\n"
+    // std::vector<std::string> m_messLines;
+    //(void)split(mess, m_messLineSep, m_messLines);
     // 根据delim拆分line，存入vstr
 
     int splitString(const std::string &line, const std::string &delim, std::vector<std::string> &vstr)
